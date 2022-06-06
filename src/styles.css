@@ -1,5 +1,6 @@
 :root {
-    background-color: grey;
+    background: rgb(59,44,88);
+background: radial-gradient(circle, rgba(59,44,88,1) 0%, rgba(14,40,60,1) 100%);
 }
 
      .App {
@@ -22,41 +23,71 @@
         height: 100vh;
         display: inline-block;
         border: 2px solid#0b132b;
-        
-        
-
+        color: antiquewhite;
+        padding-bottom: 3.2em;
     }
 
     li {
         list-style: none;
         text-align: center;
-        line-height: 10em;
+        line-height: 5em;
+        padding-top: 3em;
     }
 
     .visit {
         text-align: left;
         padding: 4em;
         border: 2px solid #0b132b;
-        
+        background-image: linear-gradient(to top, #050505, #0b0d0f, #0d1314, #111817, #171c17);
+    }
+
+    .visit p {
+        font-size: 2.3em;
+        color: antiquewhite;
     }
 
     .visit-body{
         text-align: center;
         border: 2px solid #0b132b;
         padding: 10em;
+        background-image: url(https://news.mit.edu/sites/default/files/images/202102/MIT-Efficient-Graphs-01-press.jpg);
+        background-position: center;
     }
 
     .reviews {
         border: 2px solid #0b132b;
+        /* margin-bottom: 12.8em; */
+        margin-bottom: 6.8em;
+        background-image: linear-gradient(to top, #050505, #0b0d0f, #0d1314, #111817, #171c17);
+    }
+    .reviews p {
+        font-size: 2.3em;
+        color: antiquewhite;
     }
 
     .rating {
         border: 2px solid #0b132b;
-        padding-bottom: 1em;
+        margin-bottom: -6em;
+        background-image: linear-gradient(to top, #050505, #0b0d0f, #0d1314, #111817, #171c17);
+    }
+
+    .rating p {
+        font-size: 2.3em;
+        color: antiquewhite;
     }
 
     .analysis {
         border: 2px solid #0b132b;
+        margin-bottom: -6em;
+        background-image: linear-gradient(to top, #050505, #0b0d0f, #0d1314, #111817, #171c17);
+    }
+
+    .analysis p {
+        color: antiquewhite;
+    }
+
+    h3 {
+        color: #9a96a1;
     }
 
    
